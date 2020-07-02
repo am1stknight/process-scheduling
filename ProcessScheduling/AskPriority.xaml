@@ -1,0 +1,16 @@
+﻿<Window x:Class="ProcessScheduling.AskPriority"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProcessScheduling"
+        mc:Ignorable="d"
+        Title="AskPriority" Height="227.557" Width="312.581" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <TextBox Name="Value" HorizontalAlignment="Left" TabIndex="0" FontSize="14" Height="24" Margin="88,71,0,0" Text="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button Name="Confirm" Content="Confirm" Click="Confirm_Click" TabIndex="1" HorizontalAlignment="Left" Margin="110,101,0,0" VerticalAlignment="Top" Width="74"/>
+        <Label Content="Priority Value:" HorizontalAlignment="Left" Margin="102,40,0,0" VerticalAlignment="Top"/>
+        <CheckBox Name="checkForOther" Content="Set for all other processes" HorizontalAlignment="Left" Margin="66,126,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

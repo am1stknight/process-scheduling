@@ -1,0 +1,15 @@
+﻿<Window x:Class="ProcessScheduling.DeleteProcess"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProcessScheduling"
+        mc:Ignorable="d"
+        Title="DeleteProcess" Height="253.689" Width="312.581" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label Content="What is process's id you want to delete it?" HorizontalAlignment="Left" Margin="37,39,0,0" VerticalAlignment="Top"/>
+        <ComboBox Name="Ids" HorizontalAlignment="Left" Margin="98,81,0,0" VerticalAlignment="Top" Width="97"/>
+        <Button Name="Confirm" Content="confirm" Click="Confirm_Click" HorizontalAlignment="Left" Margin="110,120,0,0" VerticalAlignment="Top" Width="75"/>
+        <CheckBox Name="DeleteAllCheck" Content="Delete all processes" Checked="CheckBox_Checked" Unchecked="CheckBox_Unchecked" HorizontalAlignment="Left" Margin="85,174,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>
